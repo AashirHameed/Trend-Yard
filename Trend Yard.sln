@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trend Yard", "Trend Yard\Trend Yard.csproj", "{72CEB753-0D81-46D1-9694-5A5DF6AEEA24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trend Yard.Web", "Trend Yard\Trend Yard.Web.csproj", "{72CEB753-0D81-46D1-9694-5A5DF6AEEA24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trend Yard.Entities", "Trend Yard.Entities\Trend Yard.Entities.csproj", "{988C7ABD-2C7C-4FA5-94C9-F4D3B7F85E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trend Yard.Database", "Trend Yard.Database\Trend Yard.Database.csproj", "{34EB5FB3-68A0-4207-B70D-12F71C08EF0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{72CEB753-0D81-46D1-9694-5A5DF6AEEA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72CEB753-0D81-46D1-9694-5A5DF6AEEA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72CEB753-0D81-46D1-9694-5A5DF6AEEA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988C7ABD-2C7C-4FA5-94C9-F4D3B7F85E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988C7ABD-2C7C-4FA5-94C9-F4D3B7F85E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988C7ABD-2C7C-4FA5-94C9-F4D3B7F85E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988C7ABD-2C7C-4FA5-94C9-F4D3B7F85E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34EB5FB3-68A0-4207-B70D-12F71C08EF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34EB5FB3-68A0-4207-B70D-12F71C08EF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34EB5FB3-68A0-4207-B70D-12F71C08EF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34EB5FB3-68A0-4207-B70D-12F71C08EF0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
